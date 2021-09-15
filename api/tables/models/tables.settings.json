@@ -1,0 +1,19 @@
+{
+  "kind": "collectionType",
+  "collectionName": "tables",
+  "info": {
+    "name": "Tables"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Name": {
+      "type": "string",
+      "required": true
+    }
+  }
+}
