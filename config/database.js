@@ -4,7 +4,7 @@ module.exports = ({ env }) => ({
     default: {
       connector: 'mongoose',
       settings: {
-        host: env('DATABASE_HOST', 'still:BQRNLcJAvGlgPjko@strapi-designsys-db.cnwox.mongodb.net/myFirstDatabase?retryWrites=true&w=majority'),
+        host: env('DATABASE_HOST', 'strapi-designsys-db.cnwox.mongodb.net'),
         srv: env.bool('DATABASE_SRV', true),
         port: env.int('DATABASE_PORT', 27017),
         database: env('DATABASE_NAME', 'strapi-designsys-db'),
